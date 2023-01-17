@@ -24,6 +24,7 @@ totalVote = len(candidate)
 
 selectUniqueNameList = list(dict.fromkeys(candidate))
 
+os.mkdir("Analysis")
 result = os.path.join ("result_PyPoll.txt")
 with open (result, "w") as f:
 
