@@ -17,7 +17,7 @@ with open (budget, encoding='utf-8') as csvfile:
         profit.append(int(row[1]))
         
 os.mkdir("Analysis")
-result = os.path.join ("result_PyBank.txt")
+result = os.path.join ("Analysis", "result_PyBank.txt")
 
 for x, row in enumerate (profit):
     if x>0:
